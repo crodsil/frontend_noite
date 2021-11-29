@@ -59,6 +59,18 @@ label {
     text-align: center;
 }
 
+input:focus, textarea:focus{
+  border-color: rgb(21,4,98) !important;
+}
+
+input:invalid, textarea:invalid{
+  border-color:red;
+}
+
+input:valid, textarea:valid{
+  border-color:green;
+}
+
 input, textarea {
     /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
     font: 1em sans-serif;
