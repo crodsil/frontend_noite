@@ -100,6 +100,11 @@ textarea {
     resize: vertical;
 }
 
+fieldset {
+  background: ciano;
+  border: 5px azul sólido;
+}
+
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
     padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
@@ -304,3 +309,4 @@ FIM - Footer */
     border-radius: 12px;
   }
 }
+
